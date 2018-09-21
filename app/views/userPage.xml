@@ -1,0 +1,14 @@
+<Alloy>
+	<Window layout="vertical">
+		<View id="user_container" layout="horizontal">
+			<ImageView id="user_avatar"/>
+				<View id="user_database_info">
+					<View layout="vertical">
+						<Label id="user_first_name"/>
+						<Label id="user_last_name"/>
+					</View>
+				</View>
+		</View>
+		<Label id="user_email"/>
+	</Window>
+</Alloy>

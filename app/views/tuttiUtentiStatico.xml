@@ -1,0 +1,19 @@
+<Alloy>
+	<Tab title="Tutti Utenti">
+		<Window layout = "vertical">
+		<ListView id="listaUtentiStatica">
+			<ListSection name="Utenti">
+				<ListItem title="Varanita" backgroundColor="red"/>
+				<ListItem title="Helium"/>
+				<ListItem title="Lithium"/>
+				<ListItem title="Beryllium"/>
+				<ListItem title="Boron"/>
+				<ListItem title="Carbon"/>
+				<ListItem title="Nitrogen"/>
+				<ListItem title="Oxygen"/>
+			</ListSection>
+		</ListView>
+		<Label id="label">I am a new tab</Label>
+		</Window>
+	</Tab>
+</Alloy>

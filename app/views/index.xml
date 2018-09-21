@@ -1,0 +1,36 @@
+<Alloy >
+	<TabGroup id="group">
+		<Tab title="LogIn" id="loginTab">
+			<Window layout="vertical" >
+				<TextField id="nome_utente"/>
+        		<TextField  id ="password"/>
+        		<Button id="login_button">Login</Button>
+        		<Label id="label2" color="blue" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" width="Titanium.UI.SIZE" height="Titanium.UI.SIZE">
+            	Tieni premuto "LOGIN" per entrare nel layout=composite
+            	</Label>
+			</Window>
+		</Tab>
+		<Tab id="tuttiUtentiTab" title="Tutti utenti">
+			<Window top="10%" id="tuttiUtentiWindow" layout="vertical">
+			      <ListView onItemclick="gestisciClickLista" id="listaUtenti">
+							<Templates>
+								<ItemTemplate name="template1" height="100">
+									<View id="item_view" bindId="item_view">
+										<View id="user_container" layout="horizontal" bindId="user_container">
+										<ImageView id="user_avatar" bindId="user_avatar"/>
+											<View id="user_database_info" width="Ti.UI.SIZE">
+												<View layout="vertical" width="Ti.UI.SIZE">
+													<Label id="user_first_name" bindId="user_first_name"/>
+													<Label id="user_last_name" bindId="user_last_name"/>
+												</View>
+											</View>
+										</View>
+									</View>
+              	</ItemTemplate>
+							</Templates>
+			        <ListSection id="listaUtentiSelection"/>
+			      </ListView>
+			</Window>
+		</Tab>
+    </TabGroup>
+</Alloy>

@@ -1,0 +1,55 @@
+
+".container" : {
+  
+}
+
+"#container_vertical" : {
+	backgroundColor: "yellow",
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	left: 20,
+	right: 20
+}
+
+"#user_avatar_and_dbinfo_horiziontal" : {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	backgroundColor: "green"
+}
+
+"#user_avatar1" : {
+	width: 100,
+	height: 100
+}
+
+"#user_database_info1_vertical" : {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
+}
+
+"#user_first_name1" : {
+	backgroundColor: "red",
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+
+"#user_last_name1" : {
+	backgroundColor: "pink",
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+
+"#user_email1" : {
+	top: 10,
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	backgroundColor: "blue"
+}
+
+
+
+
+

@@ -1,0 +1,41 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"View": {
+	width: Titanium.UI.FILL,
+	height: Ti.UI.SIZE,
+	color: "#002"
+}
+
+"#nome_utente": {
+	width: "50%",
+	height: Ti.UI.SIZE,
+	hintText: "Nome utente",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"#password": {
+	top: "12",
+	width: "50%",
+	height: Ti.UI.SIZE,
+	passwordMask:"true",
+	hintText: "Password",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"#login_button": {
+	top: "26",
+	width: "30%",
+	height: Ti.UI.SIZE
+}
+
+"ListItem": {
+	backgroundColor: 'blue'
+}
