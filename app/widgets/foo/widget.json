@@ -1,0 +1,10 @@
+{
+	"id": "foo",
+	"name": "foo",
+	"description" : "",
+	"author": "",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2013",
+	"license":"Apache-2.0",
+	"platforms":"android,ios"
+}

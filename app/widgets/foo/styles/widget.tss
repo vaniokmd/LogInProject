@@ -1,0 +1,6 @@
+"#wrapper" : {
+  backgroundColor: 'gray',
+  width: Ti.UI.FILL,
+  height: Ti.UI.SIZE,
+  textStyle: Ti.UI.TEXT_STYLE_BODY
+}

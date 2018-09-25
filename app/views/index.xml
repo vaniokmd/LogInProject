@@ -1,13 +1,18 @@
 <Alloy >
 	<TabGroup id="group">
 		<Tab title="LogIn" id="loginTab">
-			<Window layout="vertical" >
-				<TextField id="nome_utente"/>
+			<Window id="login_window">
+				<View layout="vertical">
+						<TextField id="nome_utente"/>
         		<TextField  id ="password"/>
         		<Button id="login_button">Login</Button>
         		<Label id="label2" color="blue" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" width="Titanium.UI.SIZE" height="Titanium.UI.SIZE">
             	Tieni premuto "LOGIN" per entrare nel layout=composite
-            	</Label>
+            </Label>
+				</View>
+				<View id="widget">
+						<Widget src="foo"/>
+				</View>
 			</Window>
 		</Tab>
 		<Tab id="tuttiUtentiTab" title="Tutti utenti">

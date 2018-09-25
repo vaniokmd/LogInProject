@@ -62,18 +62,17 @@ var wrapItem = $.wrap_item;
 
 		for (var i = 0; i < listaInfoUtente.length; i++) {
 			var infoUtenteObject = listaInfoUtente[i];
-			infoUtenteObject.id = i;
-			items.push(creaItemList(infoUtenteObject));
 
+			items.push(creaItemList(infoUtenteObject,i));
 
 		}
 		listaUtentiSelection.setItems(items);
 
 	  Ti.API.info("Tutti utenti: "+infoUtenteObject);
 });
-function creaItemList(infoUtenteObject){
+function creaItemList(infoUtenteObject,index){
 	var dynamicBackgroundColor;
-	if(infoUtenteObject.id%2===0){
+	if(index%2===0){
 			dynamicBackgroundColor = "white"
 	}
 	else{
@@ -84,7 +83,7 @@ function creaItemList(infoUtenteObject){
 		item_view: {
 			backgroundColor:dynamicBackgroundColor
 		},
-		
+
 		user_container:{
 
 			width: Ti.UI.SIZE
@@ -103,7 +102,6 @@ function creaItemList(infoUtenteObject){
 			text: infoUtenteObject.cognome,
 			color: 'black',
 			width: Ti.UI.SIZE,
-			backgroundColor: 'red'
 		}
 	}
 	return item;
