@@ -36,11 +36,8 @@ mUserContainer.addEventListener('click',function(e){
 					opacity: 1,
 					duration: 2000
 			});
+			mUserContainer.backgroundColor='red';
 	});
-	setTimeout(function(){
-   mUserContainer.backgroundColor='blue';
-	}, 2000);
-
 });
 init();
 $.userPage.open();
